@@ -128,13 +128,13 @@
   function applyStyle(node) {
     if (node.matches(codeLabels)) {
       node.style.fontFamily = `'MonoLisa Commilitia', '${unicodeFont}'`;
-      node.style.webkitTextStroke = "0.08px";
-      node.style.textShadow = `0.45px 0.45px 0 ${getShadowedColor(node)}`;
+      node.style.webkitTextStroke = "0.015em";
+      node.style.textShadow = `0.75px 0.75px 0 ${getShadowedColor(node)}`;
       return;
     }
     node.style.fontFamily = `'${unicodeFont}'`;
-    node.style.webkitTextStroke = "0.08px";
-    node.style.textShadow = `0.45px 0.45px 0 ${getShadowedColor(node)}`;
+    node.style.webkitTextStroke = "0.015em";
+    node.style.textShadow = `0.75px 0.75px 0 ${getShadowedColor(node)}`;
   }
 
   function executeOnAllChild(node, selector, callback) {

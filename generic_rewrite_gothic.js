@@ -130,7 +130,11 @@
 
   function executeOnAllChild(node, selector, callback) {
     callback(node);
-    node.querySelectorAll(selector).forEach(child => callback(child));
+    try {
+      node.querySelectorAll(selector).forEach(child => callback(child));
+    } catch (e) {
+      node.querySelectorAll("*").forEach(child => callback(child));
+    }
   }
 
   function onMutation(node) {
@@ -142,11 +146,19 @@
 
   async function onDomLoaded() {
     await Promise.resolve();
-    document.querySelectorAll(selector).forEach(node => {
-      if (node instanceof HTMLElement) {
-        applyStyle(node);
-      }
-    });
+    try {
+      document.querySelectorAll(selector).forEach(node => {
+        if (node instanceof HTMLElement) {
+          applyStyle(node);
+        }
+      });
+    } catch (e) {
+      document.querySelectorAll("*").forEach(node => {
+        if (node instanceof HTMLElement) {
+          applyStyle(node);
+        }
+      });
+    }
 
     new MutationObserver(mutationList => mutationList.forEach(mutation => mutation.addedNodes.forEach(onMutation)))
       .observe(

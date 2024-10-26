@@ -1,0 +1,404 @@
+/* Sarasa Gothic SC */
+@font-face {
+  font-family: 'Sarasa Gothic SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicSC/SarasaGothicSC-Bold.woff2") format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Gothic SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicSC/SarasaGothicSC-ExtraLight.woff2") format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Gothic SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicSC/SarasaGothicSC-Light.woff2") format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Gothic SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicSC/SarasaGothicSC-Regular.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Gothic SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicSC/SarasaGothicSC-SemiBold.woff2") format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Gothic SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicSCItalic/SarasaGothicSC-BoldItalic.woff2") format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Gothic SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicSCItalic/SarasaGothicSC-ExtraLightItalic.woff2") format('woff2');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Gothic SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicSCItalic/SarasaGothicSC-Italic.woff2") format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Gothic SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicSCItalic/SarasaGothicSC-LightItalic.woff2") format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Gothic SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicSCItalic/SarasaGothicSC-SemiBoldItalic.woff2") format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Sarasa Gothic TC */
+@font-face {
+  font-family: 'Sarasa Gothic TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicTC/SarasaGothicTC-Bold.woff2") format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Gothic TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicTC/SarasaGothicTC-ExtraLight.woff2") format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Gothic TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicTC/SarasaGothicTC-Light.woff2") format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Gothic TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicTC/SarasaGothicTC-Regular.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Gothic TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicTC/SarasaGothicTC-SemiBold.woff2") format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Gothic TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicTCItalic/SarasaGothicTC-BoldItalic.woff2") format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Gothic TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicTCItalic/SarasaGothicTC-ExtraLightItalic.woff2") format('woff2');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Gothic TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicTCItalic/SarasaGothicTC-Italic.woff2") format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Gothic TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicTCItalic/SarasaGothicTC-LightItalic.woff2") format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Gothic TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaGothicTCItalic/SarasaGothicTC-SemiBoldItalic.woff2") format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Sarasa UI SC */
+@font-face {
+  font-family: 'Sarasa UI SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUISC/SarasaUiSC-Bold.woff2") format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa UI SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUISC/SarasaUiSC-ExtraLight.woff2") format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa UI SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUISC/SarasaUiSC-Light.woff2") format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa UI SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUISC/SarasaUiSC-Regular.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa UI SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUISC/SarasaUiSC-SemiBold.woff2") format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa UI SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUISCItalic/SarasaUiSC-BoldItalic.woff2") format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa UI SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUISCItalic/SarasaUiSC-ExtraLightItalic.woff2") format('woff2');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa UI SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUISCItalic/SarasaUiSC-Italic.woff2") format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa UI SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUISCItalic/SarasaUiSC-LightItalic.woff2") format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa UI SC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUISCItalic/SarasaUiSC-SemiBoldItalic.woff2") format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Sarasa UI TC */
+@font-face {
+  font-family: 'Sarasa UI TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUITC/SarasaUiTC-Bold.woff2") format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa UI TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUITC/SarasaUiTC-ExtraLight.woff2") format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa UI TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUITC/SarasaUiTC-Light.woff2") format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa UI TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUITC/SarasaUiTC-Regular.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa UI TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUITC/SarasaUiTC-SemiBold.woff2") format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa UI TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUITCItalic/SarasaUiTC-BoldItalic.woff2") format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa UI TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUITCItalic/SarasaUiTC-ExtraLightItalic.woff2") format('woff2');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa UI TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUITCItalic/SarasaUiTC-Italic.woff2") format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa UI TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUITCItalic/SarasaUiTC-LightItalic.woff2") format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa UI TC';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/SarasaUITCItalic/SarasaUiTC-SemiBoldItalic.woff2") format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* MonoLisa Commilitia */
+@font-face {
+  font-family: 'MonoLisa Commilitia';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/MonoLisaCommilitia/MonoLisaCommilitia-Bold.woff2") format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MonoLisa Commilitia';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/MonoLisaCommilitia/MonoLisaCommilitia-BoldItalic.woff2") format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MonoLisa Commilitia';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/MonoLisaCommilitia/MonoLisaCommilitia-Light.woff2") format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MonoLisa Commilitia';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/MonoLisaCommilitia/MonoLisaCommilitia-LightItalic.woff2") format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MonoLisa Commilitia';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/MonoLisaCommilitia/MonoLisaCommilitia-Medium.woff2") format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MonoLisa Commilitia';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/MonoLisaCommilitia/MonoLisaCommilitia-MediumItalic.woff2") format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MonoLisa Commilitia';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/MonoLisaCommilitia/MonoLisaCommilitia-Regular.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MonoLisa Commilitia';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/MonoLisaCommilitia/MonoLisaCommilitia-RegularItalic.woff2") format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MonoLisa Commilitia';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/MonoLisaCommilitia/MonoLisaCommilitia-SemiBold.woff2") format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MonoLisa Commilitia';
+  src: url("https://cdn.jsdelivr.net/gh/CommilitiaAsset/MonoLisaCommilitia/MonoLisaCommilitia-SemiBoldItalic.woff2") format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}

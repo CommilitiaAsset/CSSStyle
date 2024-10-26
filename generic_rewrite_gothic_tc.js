@@ -1,18 +1,9 @@
 (function () {
   const unicodeFont = "Sarasa Gothic TC";
 
-  const codeLabels = [
-    "code",
-    "pre",
-    "samp",
-    "pre *",
-    "kbd",
-    "tt",
-    "datalist",
-    "progress",
-    "meter",
-    "var"
-  ].join(", ");
+  const codeSelector = "progress,meter,datalist,samp,kbd,pre,pre *,code,code *";
+
+  const selector = ":not(i,head *):not([class*='glyph']):not([class*='symbols' i]):not([class*='icon' i]):not([class*='fa-']):not([class*='vjs-'])";
 
   function rgbToHsl(color) {
     let [ r, g, b ] = color.map(c => c / 255);
@@ -111,7 +102,7 @@
   }
   
   function applyStyle(node) {
-    if (node.matches(codeLabels)) {
+    if (node.matches(codeSelector)) {
       node.style.fontFamily = `'MonoLisa Commilitia', '${unicodeFont}'`;
       node.style.webkitTextStroke = "0.015em";
       node.style.textShadow = `0.75px 0.75px 0 ${getShadowedColor(node)}`;
@@ -127,20 +118,16 @@
     node.querySelectorAll(selector).forEach(child => callback(child));
   }
 
-  function selectOrChild(node, selector) {
-    return node.matches(selector) || node.querySelector(selector);
-  }
-
   function onMutation(node) {
     if (!(node instanceof HTMLElement)) {
       return;
     }
-    executeOnAllChild(node, "*", applyStyle);
+    executeOnAllChild(node, selector, applyStyle);
   }
 
   async function onDomLoaded() {
     await Promise.resolve();
-    document.querySelectorAll("*").forEach(node => {
+    document.querySelectorAll(selector).forEach(node => {
       if (node instanceof HTMLElement) {
         applyStyle(node);
       }

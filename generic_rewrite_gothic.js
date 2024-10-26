@@ -70,7 +70,8 @@
   }
 
   function hslToRgb(color) {
-    const [ r, g, b ] = color;
+    const [ h, s, l ] = color;
+    let r, g, b;
 
     if (s === 0) {
       r = g = b = l;
@@ -98,13 +99,17 @@
     } else if (str.startsWith("rgb")) {
       match = str.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
       return [ parseInt(match[1]), parseInt(match[2]), parseInt(match[3]), 255 ];
-    } if (str.startsWith("#")) {
+    } else if (str.startsWith("#")) {
       switch(str.length) {
         case 9: return [ parseInt(str.slice(1, 3), 16), parseInt(str.slice(3, 5), 16), parseInt(str.slice(5, 7), 16), parseInt(str.slice(7, 9), 16) ];
         case 7: return [ parseInt(str.slice(1, 3), 16), parseInt(str.slice(3, 5), 16), parseInt(str.slice(5, 7), 16), 255 ];
         case 5: return [ parseInt(str[1] + str[1], 16), parseInt(str[2] + str[2], 16), parseInt(str[3] + str[3], 16), parseInt(str[4] + str[4], 16) ];
         case 4: return [ parseInt(str[1] + str[1], 16), parseInt(str[2] + str[2], 16), parseInt(str[3] + str[3], 16), 255 ];
       }
+    } else if (str === "transparent") {
+      return [ 0, 0, 0, 0 ];
+    } else {
+      return [ 0, 0, 0, 255 ];
     }
 
     return [ 0, 0, 0, 255 ];
@@ -117,7 +122,7 @@
     a = a * 0.87;
 
     [ r, g, b ] = hslToRgb([ h, s, l ]);
-    return rgbToHex(r, g, b, a);
+    return rgbToHex([ r, g, b, a ]);
   }
   
   function applyStyle(node) {
@@ -156,7 +161,7 @@
       }
     });
 
-    new MutationObserver(mutation => mutation.addedNodes.forEach(onMutation))
+    new MutationObserver(mutationList => mutationList.forEach(mutation => mutation.addedNodes.forEach(onMutation)))
       .observe(
         document.body,
         { attributes: false, childList: true, subtree: true }

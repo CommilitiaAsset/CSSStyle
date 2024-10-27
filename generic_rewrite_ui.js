@@ -119,12 +119,10 @@
   function applyStyle(node) {
     if (node.matches(codeSelector)) {
       node.style.fontFamily = `'MonoLisa Commilitia', '${unicodeFont}'`;
-      node.style.webkitTextStroke = "0.015em";
       node.style.textShadow = `0.05em 0.05em 0.05em ${getShadowedColor(node)}`;
       return;
     }
     node.style.fontFamily = `'${unicodeFont}'`;
-    node.style.webkitTextStroke = "0.015em";
     node.style.textShadow = `0.05em 0.05em 0.1em ${getShadowedColor(node)}`;
   }
 

@@ -4,6 +4,42 @@ This sheet contains all fonts in **CommilitiaAsset**.
 
 https://cdn.jsdelivr.net/gh/CommilitiaAsset/CSSStyle/fonts.css
 
+## Sarasa Gothic SC Style Sheet
+
+This sheet makes all labels use `Sarasa Gothic SC` font and `MonoLisa Commilitia` as code font.
+
+https://cdn.jsdelivr.net/gh/CommilitiaAsset/CSSStyle/apply_font_gothic_sc.css
+
+## Sarasa Gothic TC Style Sheet
+
+This sheet makes all labels use `Sarasa Gothic TC` font and `MonoLisa Commilitia` as code font.
+
+https://cdn.jsdelivr.net/gh/CommilitiaAsset/CSSStyle/apply_font_gothic_tc.css
+
+## Sarasa UI SC Style Sheet
+
+This sheet makes all labels use `Sarasa UI SC` font and `MonoLisa Commilitia` as code font.
+
+https://cdn.jsdelivr.net/gh/CommilitiaAsset/CSSStyle/apply_font_ui_sc.css
+
+## Sarasa UI TC Style Sheet
+
+This sheet makes all labels use `Sarasa UI TC` font and `MonoLisa Commilitia` as code font.
+
+https://cdn.jsdelivr.net/gh/CommilitiaAsset/CSSStyle/apply_font_ui_tc.css
+
+## Automatic Gothic Sheet
+
+This script loads the sheet for `Sarasa Gothic SC` or `TC` font (based on `lang` property on `html` label) and `MonoLisa Commilitia` as code font.
+
+https://cdn.jsdelivr.net/gh/CommilitiaAsset/CSSStyle/apply_font_gothic.js
+
+## Automatic UI Sheet
+
+This script loads the sheet for `Sarasa UI SC` or `TC` font (based on `lang` property on `html` label) and `MonoLisa Commilitia` as code font.
+
+https://cdn.jsdelivr.net/gh/CommilitiaAsset/CSSStyle/apply_ui_gothic.js
+
 ## Sarasa Gothic SC Rewrite
 
 This script forces all labels to use `Sarasa Gothic SC` font and `MonoLisa Commilitia` as code font.

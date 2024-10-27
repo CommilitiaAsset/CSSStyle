@@ -109,8 +109,8 @@
   function getShadowedColor(node) {
     let [ r, g, b, a ] = parseColor(getComputedStyle(node).color);
     let [ h, s, l ] = rgbToHsl([ r, g, b ]);
-    l = 0.486 * l + 0.514;
-    a = a * 0.87;
+    l = 0.5 + 0.5 * l;
+    a = Math.round(a * 0.5);
 
     [ r, g, b ] = hslToRgb([ h, s, l ]);
     return rgbToHex([ r, g, b, a ]);
@@ -120,12 +120,12 @@
     if (node.matches(codeSelector)) {
       node.style.fontFamily = `'MonoLisa Commilitia', '${unicodeFont}'`;
       node.style.webkitTextStroke = "0.015em";
-      node.style.textShadow = `0.75px 0.75px 0 ${getShadowedColor(node)}`;
+      node.style.textShadow = `0.05em 0.05em 0.05em ${getShadowedColor(node)}`;
       return;
     }
     node.style.fontFamily = `'${unicodeFont}'`;
     node.style.webkitTextStroke = "0.015em";
-    node.style.textShadow = `0.75px 0.75px 0 ${getShadowedColor(node)}`;
+    node.style.textShadow = `0.05em 0.05em 0.1em ${getShadowedColor(node)}`;
   }
 
   function executeOnAllChild(node, selector, callback) {
